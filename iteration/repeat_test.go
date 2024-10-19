@@ -21,7 +21,7 @@ func BenchmarkRepeat(b *testing.B) {
 	}
 }
 
-// go tets -v to see this test run
+// go test -v to see this test run
 func ExampleRepeat() {
 	repeat := Repeat("b", 9)
 	fmt.Println(repeat)
